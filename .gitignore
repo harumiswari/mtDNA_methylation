@@ -1,0 +1,42 @@
+# Raw sequencing data
+*.pod5
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment and variant files
+*.bam
+*.bam.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+
+# Large reference indexes and composite references
+*.mmi
+Ref/GRCm39_nuclear_SphI_mtDNA_DCS.fa
+Ref/GRCm39_nuclear_SphI_mtDNA_DCS.fa.fai
+Ref/GRCm39_nuclear_NcoI_mtDNA_DCS.fa
+Ref/GRCm39_nuclear_NcoI_mtDNA_DCS.fa.fai
+Ref/GRCm39_nuclear_SphI_mtDNA_DCS.fa.*
+Ref/GRCm39_nuclear_NcoI_mtDNA_DCS.fa.*
+Ref/Mus_musculus.GRCm39.nuclear_no_MT.fa
+Ref/Mus_musculus.GRCm39.nuclear_no_MT.fa.*
+Ref/GRCm39_nuclear_SphI_mtDNA_DCS.fa
+Ref/GRCm39_nuclear_NcoI_mtDNA_DCS.fa
+
+# Generated workflow outputs
+XX_methylation_basemod_results/
+XX_methylation_modkit_results/
+XX_methylation_comparison_results/
+heteroplasmy/__pycache__/
+__pycache__/
+*.log
+*.tmp
+
+# Large plots and intermediate analysis artifacts
+*.pdf
+*.png
+.ipynb_checkpoints/
