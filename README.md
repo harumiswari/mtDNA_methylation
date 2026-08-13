@@ -212,6 +212,6 @@ Before interpreting methylation calls, review:
 
 ## Notes
 
-This workflow is designed to be upstream of the reciprocal-orientation heteroplasmy analysis. It generates the cleaned mtDNA BAMs and orientation-specific methylation tables required for downstream heteroplasmy comparisons and validation.
+This workflow is designed to be upstream of the reciprocal-orientation heteroplasmy analysis. It generates the cleaned mtDNA BAMs required for downstream heteroplasmy comparisons and validation.
 
 The methylation analysis is intentionally separated from the heteroplasmy analysis: the first workflow handles modified-basecalling and methylation assessment, while the heteroplasmy repository handles reciprocal BAM evidence and SNV-level variant calling.
